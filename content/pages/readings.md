@@ -39,32 +39,345 @@ Also see: Howell, J. R. _[Radiation Configuration Factors](https://web.engr.uky.
 
 Cengel, Y. A. _Heat Transfer: A Practical Approach_. 2nd ed. Boston, MA: McGraw-Hill, 2002. ISBN: 9780072458930.
 
-| LEC # | TOPICS | READINGS |
-| --- | --- | --- |
-| 1 | Modes of heat transfer | Chapter 1 |
-| 2 | CONDUCTION: resistances; energy equation | Chapter 2 |
-| 3 | Energy equation, Biot number | §§ 4.1-4.4 |
-| 4 | Fins | § 4.5 |
-| 5 | Lumped capacity | § 1.3, §§ 5.1-5.2 |
-| 6 | Transient conduction | §§ 5.3-5.5 |
-| 7 | Semi-infinite bodies | § 5.6 |
-| 8 | Multidimensional conduction | §§ 5.7-5.8 |
-| 9 | Numerical simulation | Handout |
-| &nbsp; | Quiz 1 (through Lectures 1-9) | &nbsp; |
-| 10 | CONVECTION: conservation equations | §§ 6.1-6.4 |
-| 11 | Laminar boundary layers | §§ 6.5-6.6 |
-| 12 | Integral methods | &nbsp; |
-| 13 | Internal flows | §§ 7.1-7.2 |
-| 14 | Turbulence | §§ 6.8-6.9, § 7.3 |
-| 15 | Turbulence, noncircular ducts, crossflows | §§ 7.4-7.6 |
-| 16 | Natural convection | §§ 8.1-8.4 |
-| 17 | Condensation | § 8.5, § 9.9 |
-| 18 | MASS TRANSFER: mixtures, diffusion | §§ 11.1-11.3 |
-| &nbsp; | Quiz 2 (through Lectures 10-17) | &nbsp; |
-| 19 | Species conservation, analogy to heat transfer | §§ 11.5, 11.7 |
-| 20 | Evaporative cooling | §§ 11.8 |
-| 21 | RADIATION: black bodies | §§ 1.3, §§ 10.1-10.2 |
-| 22 | View factors | §§ 10.3 |
-| 23 | Gray body networks | §§ 10.4 |
-| 24 | Spectral surfaces, solar radiation | §§ 10.5-10.6 |
-| &nbsp; | Final exam (comprehensive) |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Modes of heat transfer
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 1
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+CONDUCTION: resistances; energy equation
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Energy equation, Biot number
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 4.1-4.4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Fins
+{{< tdclose >}}
+{{< tdopen >}}
+§ 4.5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Lumped capacity
+{{< tdclose >}}
+{{< tdopen >}}
+§ 1.3, §§ 5.1-5.2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Transient conduction
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 5.3-5.5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Semi-infinite bodies
+{{< tdclose >}}
+{{< tdopen >}}
+§ 5.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Multidimensional conduction
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 5.7-5.8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Numerical simulation
+{{< tdclose >}}
+{{< tdopen >}}
+Handout
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1 (through Lectures 1-9)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+CONVECTION: conservation equations
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 6.1-6.4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Laminar boundary layers
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 6.5-6.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Integral methods
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Internal flows
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 7.1-7.2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+Turbulence
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 6.8-6.9, § 7.3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Turbulence, noncircular ducts, crossflows
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 7.4-7.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Natural convection
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 8.1-8.4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+Condensation
+{{< tdclose >}}
+{{< tdopen >}}
+§ 8.5, § 9.9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+MASS TRANSFER: mixtures, diffusion
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 11.1-11.3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2 (through Lectures 10-17)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Species conservation, analogy to heat transfer
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 11.5, 11.7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Evaporative cooling
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 11.8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+RADIATION: black bodies
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 1.3, §§ 10.1-10.2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+View factors
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 10.3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Gray body networks
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 10.4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Spectral surfaces, solar radiation
+{{< tdclose >}}
+{{< tdopen >}}
+§§ 10.5-10.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Final exam (comprehensive)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

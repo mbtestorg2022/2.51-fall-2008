@@ -4,6 +4,7 @@ description: A quick orientation guide to PDETool, a partial differential-equati
   (PDE) toolbox in MATLAB.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/2-51-intermediate-heat-and-mass-transfer-fall-2008/6fcd30c33e98fa4985be8b6680c08bff_matlab.pdf
 file_type: application/pdf
+parent_uid: 5d4ba385-23a6-0015-5b4e-af6ac1cba33a
 resourcetype: Document
 title: "MATLAB\xAE/PDEToolHints"
 uid: 6fcd30c3-3e98-fa49-85be-8b6680c08bff
